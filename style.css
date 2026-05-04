@@ -84,3 +84,15 @@ h2 {
   color: white;
   font-weight: 300;
 }
+footer{
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+a{
+    text-decoration: none;
+color: var(--blue500);
+}
+a:visited{
+  filter: opacity(0.7);
+}
