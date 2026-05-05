@@ -3,8 +3,16 @@
 *::after {
   box-sizing: border-box;
 }
-body{
-    font-size: 1.125rem;
-    font-family: ;
-    font-weight: 400;
+:root {
+  --font-main: "Outfit", sans-serif;
+  --blue500: hsl(215, 51%, 70%);
+  --cyan400: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+}
+body {
+  font-size: 1.125rem;
+  font-family: var(--font-main);
+  font-weight: 400;
 }
