@@ -15,4 +15,36 @@ body {
   font-size: 1.125rem;
   font-family: var(--font-main);
   font-weight: 400;
+  background-color: var(--mainBG);
+}
+.card {
+  background-color: var(--cardBG);
+  margin: 5vh auto;
+  width: 92vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 24px;
+  color: var(--blue500);
+}
+.image-holder {
+  display: block;
+  width: 100%;
+}
+.image-holder > img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px;
+}
+hr {
+  background-color: var(--line);
+  border: none;
+  height: 2px;
+}
+h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
